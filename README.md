@@ -39,6 +39,8 @@ void bar(int a, int b, int c)
 }
 ```
 The output of the profiler goes to a `.json` file at the path specified in the `filePath` when the session is created. If the path is not specified then the output goes to `result.json` file in the directory where the project is running.
+
+To analyse the results open Google Chrome Browser and enter `chrome://tracing/` in the URL. Then grab the `.json` file and drop it in the browser. From there you can inspect the results. 
 # Credits
 Credits goes to [The Cherno](https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw)
 
