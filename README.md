@@ -38,9 +38,7 @@ void bar(int a, int b, int c)
   // Do some funny stuff
 }
 ```
-The output of the profiler goes to a .json file at the path specified in the `filePath` when the session is created. If the path is not specified then the output goes to `result.json` file in the directory where the project is running.
-
-Define `PPROFILE` in your project 
+The output of the profiler goes to a `.json` file at the path specified in the `filePath` when the session is created. If the path is not specified then the output goes to `result.json` file in the directory where the project is running.
 # Credits
 Credits goes to [The Cherno](https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw)
 
