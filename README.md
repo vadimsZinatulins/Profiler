@@ -4,7 +4,7 @@ Simple profiler library to use in the future projects.
 # Build
 Open the project in Visual Studio 2019, choose the Platform and Configuration and hit Build.
 
-The output goes to _bin/{Platform}/{Configuration}_ and it outputs two files:
+The output goes to _bin/{Platform}/{Configuration}/_ and it will contain two files:
 - include\: Contains all __header__ files
 - lib\: Contains the __.lib__ file
 
