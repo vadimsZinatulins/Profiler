@@ -10,13 +10,13 @@ The output goes to `bin/{Platform}/{Configuration}/` and it will contain two fil
 
 # Usage
 All your profiling must be done in a session, creationg and deletion of a session is done manually:
-```
+```c++
 Benchmark::Profiler::getInstance().beginSession(name /*, filePath*/);
 // Do some profiling
 Benchmark::Profiler::getInstance().endSession();
 ```
 To benchmark a specific section just instantiate the Timer:
-```
+```c++
 void foo()
 {
   Benchmark::Timer timer("Function foo");
@@ -25,7 +25,7 @@ void foo()
 }
 ```
 You can also use some Macros if you define `PPROFILE` in your project:
-```
+```c++
 void foo()
 {
   PPROFILE_SCOPE("Function foo"); // This is the same as instantiatine Benchmark::Timer and let it call stop() at the end if its lifetime
